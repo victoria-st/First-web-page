@@ -1,2 +1,2 @@
 # hello-world
-Test repository
+First web page created for practice.
