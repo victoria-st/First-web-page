@@ -1,0 +1,193 @@
+﻿/* Place your CSS styles in this file */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #46344E;
+  max-width: 1300px;
+  margin: 0 auto !important;
+  float: none !important;
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px 0px 30px 0px;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  padding: 0px 15px 0px 15px;
+}
+
+a.navigation {
+  font-size: x-large;
+  margin-bottom: 25px;
+}
+
+a:link, a:visited {
+  color: #FAED26;
+}
+
+a:hover {
+  color: #b9938a;
+}
+
+a:active {
+  color: #fceb02;
+}
+
+a.film {
+  text-decoration: none;
+  color: #ccb9bc;
+}
+
+a.film:hover {
+  color: #FAED26;
+}
+
+a.film:active {
+  color: #9B786F;
+}
+
+.center {
+  text-align: center;
+}
+
+aside {
+  width: 30%;
+  padding: 15px;
+  margin-left: 15px;
+  float: right;
+  font-size: large;
+  font-style: italic;
+  color: #ccb9bc;
+}
+
+aside h3 {
+  color: #FAED26;
+}
+
+table {
+  width: 60%;
+  float: left;
+  margin-top: 40px;
+  margin-left: 5%;
+}
+
+table,th,td {
+  border: 3px solid #ccb9bc;
+  border-collapse: collapse;
+  font-size: larger;
+  padding: 5px;
+  text-align: center;
+  color: #ccb9bc;
+}
+
+th, .info {
+  color: #FAED26;
+}
+
+.info {
+  width: 60%;
+  float: left;
+  margin-left: 5%;
+}
+
+.movie, .details {
+  padding: 10px 15px 15px 10px;
+}
+
+.details {
+  color: #ccb9bc;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  margin-bottom: 75px;
+}
+
+h3.movie {
+  margin-top: 75px;
+  text-align: center;
+  font-size: x-large;
+}
+
+.details {
+  width: 70%;
+  float: left;
+  font-size: larger;
+  text-align: justify;
+}
+
+.image {
+  width: 30%;
+  float: left;
+}
+
+.quiz {
+  margin-bottom: 75px;
+  clear: both;
+  color: #FAED26;
+  font-size: x-large;
+  width: 60%;
+  text-align: center;
+  margin-left: 5%;
+}
+
+div.quiz p {
+  color: #ccb9bc;
+}
+
+h3.quiz, p.quiz {
+  font-size: x-large;
+}
+
+.options {
+  width: 50%;
+  float: left;
+  font-size: large;
+  text-align: right;
+}
+
+.year {
+  margin: 50px 15px 75px 15px;
+  font-size: larger;
+  padding: 15px;
+  background-color: #ccb9bc;
+}
+
+.year:hover {
+  background-color: #b9938a;
+  cursor: pointer;
+}
+
+.year:active {
+    background-color: #FAED26;
+}
+
+.output {
+  width: 50%;
+  float: right;
+  font-size: larger;
+}
+
+#answer {
+  color: #FAED26;
+  padding-top: 35px;
+}
